@@ -1,6 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 *{
 
 font-family:"Lato", Helvetica, sans-serif ;
+a{
+
+    text-decoration: none;
+}
+
+body{
+
+    background-color: beige;
+}
+
+/* header styles startz */
+}
+.headers img{
+    width: 10rem;
+     }
+
+.headers .navbar img{
+   width: 25px;
+   border-radius: 4px;
+    }
+.headers .navbar a{
+    color: black;
 
 }
+.navbar{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+.headers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 1.5rem 5%;
+    box-shadow: 1px black;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+/* header styles ends */
+
+/* hero styles  starts*/
+
+.heros{
+    display: flex;
+    justify-content: center;
+
+}
+.hmcontainer{
+display: flex;
+width: 87.5rem;
+height: 25rem;
+background-image: url('/image/studying.jpg');
+background-size: cover;
+color: black;
+background-repeat: no-repeat;
+flex-wrap: wrap;
+margin: 7rem 7rem 2rem 7rem;
+justify-content: center;
+align-items: center;
+padding: 8% 8%;
+border-radius: 4px;
+
+}
+.hmcontainer h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.hmcontainer p{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    font-size: 1.5rem;
+
+}
+
+.hmcontainer a{
+    color: white;
+    background-color: green;
+    padding: 2% 2%;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+
+/* hero styles  ends*/
+
+
+
+
+
+.kelas{
+margin:2rem 7rem 2rem 7rem ;
+
+}
+.ket h2{
+    margin-bottom: -1%;
+    font-size: 2rem;
+
+}
+.kelas .ket p{
+    font-size: 1.2rem;
+
+}
+
+.ktcontainer{
+    display: flex;
+    gap: 5%;
+    margin-top: 3%;
+    margin-left: 0.5%;
+}
+
+.ktcontainer a{
+    font-size: 1.2rem;
+
+
+}
+
+.klcontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    row-gap: 3%;
+   
+}
+
+/* card styling */
+.card{
+
+    box-shadow: 2px black;
+    display: inline;
+    width: 30%;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    background-color: white;
+    margin-top: 2rem;
+    
+
+
+}
+
+.card h4{
+    margin:2% 0 2% 0;
+
+
+}
+.card p{
+    
+    color: rgb(96, 95, 95);
+    margin-top: -2px;
+    
+}
+
+
+.card .cardimg{
+
+    border-radius: 10px;
+    max-width: 100%;
+
+}
+
+/* tutor styling starts */
+.teacher h4{
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+
+}
+.teacher p{
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+
+}
+
+.teacher{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    max-width: 100%;
+    margin-top:2rem;
+    
+}
+
+
+.tutorimg{
+    width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  margin-right: 15px;
+
+}
+
+/* Tutor styling ends */
+
+/* Ratings and Price styling starts */
+.rate{
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec{
+    min-width: 60%;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.rate .sec img{
+
+    width: 50%;
+
+}
+
+
+.sec p{
+    margin-top: 6%;
+    margin-left: 2%;
+    text-decoration: underline;
+    font-size: 1.3rem;
+
+}
+.rate h3{
+ color: rgb(1, 145, 1);
+ font-size: 2rem;
+ 
+
+}
+
+/* Rating and price styling ends */
+
+/* card styling ends */
+
+
+.cta{
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+.ctaimg{
+    display: flex;
+    background-image: url('/image/studying.jpg');
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    border-radius: 4px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8% 8%;
+
+
+}
+.ctaimg .content{
+
+    background-color: rgba(0, 0, 0, 0.5); /* Slight black overlay for text contrast */
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+
+}
+.ctaimg h6{
+
+    color: white;
+}
+.ctaimg p{
+
+    color: white;
+}
+
+.subs{
+
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    padding: 2% 2%;
+    height: auto;
+}
+
+.ctaimg a{
+    background-color:orange;
+    border-radius: 10px;
+    padding: 2% 2%;
+    color: white;
+}
+
+.ctaimg h2{
+
+    color: white;
+}
+
+
+
+
+
+
