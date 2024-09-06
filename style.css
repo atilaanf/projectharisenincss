@@ -3,7 +3,7 @@
 *{
 
 font-family:"Lato", Helvetica, sans-serif ;
-a{
+
 
     text-decoration: none;
 }
@@ -14,7 +14,7 @@ body{
 }
 
 /* header styles startz */
-}
+
 .headers img{
     width: 10rem;
      }
@@ -54,46 +54,75 @@ body{
 .heros{
     display: flex;
     justify-content: center;
+    margin-top: 5%;
+    
 
 }
-.hmcontainer{
+.heroimg{
 display: flex;
-width: 87.5rem;
-height: 25rem;
 background-image: url('/image/studying.jpg');
 background-size: cover;
 color: black;
-background-repeat: no-repeat;
-flex-wrap: wrap;
-margin: 7rem 7rem 2rem 7rem;
-justify-content: center;
-align-items: center;
-padding: 8% 8%;
+width: 90%;
+margin-top: 5%;
+background-size: cover;
+background-position: center;
+height: 25rem;
 border-radius: 4px;
+justify-content: center;
+flex-wrap: wrap;
+
 
 }
+.herooverlay{
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.hmcontainer{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2%;
+}
 .hmcontainer h1{
+   
+    width: 100%;
     color: white;
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
+    margin-top: 5%;
 
 }
 .hmcontainer p{
+    
+    margin-top: -7%;
+    width: 100%;
     text-align: center;
     color: white;
-    margin-top: 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 }
 
-.hmcontainer a{
+.hmcontainer button{
+    padding: 10px 20px;
+    border: none;
     color: white;
-    background-color: green;
-    padding: 2% 2%;
-    border-radius: 20px;
-    text-align: center;
-    margin-top: 1rem;
+    font: 1rem;
+    background-color: rgb(33, 216, 16);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    margin-top:-5% ;
+    font-weight: bolder;
     
 }
 
@@ -175,19 +204,6 @@ margin:2rem 7rem 2rem 7rem ;
 }
 
 /* tutor styling starts */
-.teacher h4{
-    margin: 0;
-    font-size: 1.2rem;
-    color: #333;
-
-}
-.teacher p{
-    margin: 0;
-    font-size: 1rem;
-    color: #666;
-
-}
-
 .teacher{
     display: flex;
     align-items: center;
@@ -196,6 +212,20 @@ margin:2rem 7rem 2rem 7rem ;
     margin-top:2rem;
     
 }
+.teacher h4{
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+
+}
+.teacher p{
+    margin: 0;
+    font-size: rem;
+    color: #666;
+
+}
+
+
 
 
 .tutorimg{
@@ -239,7 +269,7 @@ margin:2rem 7rem 2rem 7rem ;
 }
 .rate h3{
  color: rgb(1, 145, 1);
- font-size: 2rem;
+ font-size: 170%;
  
 
 }
@@ -252,61 +282,100 @@ margin:2rem 7rem 2rem 7rem ;
 .cta{
     display: flex;
     justify-content: center;
-    
+ 
 
 
 }
 .ctaimg{
     display: flex;
     background-image: url('/image/studying.jpg');
-    width: 70%;
+    width: 90%;
     background-size: cover;
     background-position: center;
     height: 25rem;
     border-radius: 4px;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 8% 8%;
+   
 
-
+.flexor{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 525px;
+    height: 216px;
+    justify-content: center;
+  
 }
-.ctaimg .content{
+}
+.content{
 
-    background-color: rgba(0, 0, 0, 0.5); /* Slight black overlay for text contrast */
-    margin: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 40px;
     text-align: center;
     border-radius: 10px;
     color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 
 }
+
+
 .ctaimg h6{
-
+    margin-bottom: 0px;
     color: white;
-}
+    width: 60%;
+} 
 .ctaimg p{
-
+    margin-top: 0px;
+    margin-bottom: 10px;
     color: white;
+    width: 80%;
+}
+.flexor h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 60%;
 }
 
-.subs{
-
+.subscontainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
     background-color: white;
     border-radius: 10px;
-    width: 40%;
-    padding: 2% 2%;
-    height: auto;
+    width: 80%;
+    height:2rem;
+    padding: 2% 2% 2% 2% ;
+    margin-top: 2px;
+    gap: 40%;
+    
+    
 }
 
-.ctaimg a{
-    background-color:orange;
-    border-radius: 10px;
-    padding: 2% 2%;
-    color: white;
+.emailinput{
+
+border: none;
+
 }
 
-.ctaimg h2{
+.btsubs{
+padding: 10px 20px;
+border: none;
+color: white;
+font: 1rem;
+font-weight: bold;
+background-color: orange;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.5s ease;
+}
+.btsubs:hover{
+background-color: green;
 
-    color: white;
 }
 
 
