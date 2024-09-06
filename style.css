@@ -60,7 +60,7 @@ body{
 }
 .heroimg{
 display: flex;
-background-image: url('./image/studying.jpg');
+background-image: url('/image/studying.jpg');
 background-size: cover;
 color: black;
 width: 90%;
@@ -288,7 +288,7 @@ margin:2rem 7rem 2rem 7rem ;
 }
 .ctaimg{
     display: flex;
-    background-image: url('./image/studying.jpg');
+    background-image: url('/image/studying.jpg');
     width: 90%;
     background-size: cover;
     background-position: center;
