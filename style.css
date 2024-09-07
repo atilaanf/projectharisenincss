@@ -16,11 +16,11 @@ body{
 /* header styles startz */
 
 .headers img{
-    width: 10rem;
+    width: 12rem;
      }
 
 .headers .navbar img{
-   width: 25px;
+   width: 2.5rem;
    border-radius: 4px;
     }
 .headers .navbar a{
@@ -54,20 +54,18 @@ body{
 .heros{
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 100px;
     
 
 }
 .heroimg{
 display: flex;
-background-image: url('/image/studying.jpg');
+background-image: url('./image/studying.jpg');
 background-size: cover;
 color: black;
 width: 90%;
-margin-top: 5%;
-background-size: cover;
 background-position: center;
-height: 25rem;
+
 border-radius: 4px;
 justify-content: center;
 flex-wrap: wrap;
@@ -78,6 +76,7 @@ flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 4px;
     width: 100%;
+   
     display: flex;
     justify-content: center;
 
@@ -99,12 +98,12 @@ flex-wrap: wrap;
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
-    margin-top: 5%;
+    margin-top: 2%;
 
 }
 .hmcontainer p{
     
-    margin-top: -7%;
+    margin-top: -2rem;
     width: 100%;
     text-align: center;
     color: white;
@@ -121,23 +120,51 @@ flex-wrap: wrap;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.5s ease;
-    margin-top:-5% ;
     font-weight: bolder;
     
 }
-
+.hmcontainer button:hover{
+    background-color: rgb(1, 18, 1);
+    
+    }
 /* hero styles  ends*/
 
 
 
-
-
-.kelas{
-margin:2rem 7rem 2rem 7rem ;
+.klouter{
+    display: flex;
+    justify-content: center;
+    
 
 }
+
+.klcontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    row-gap: 3%;
+    width: 100%;
+   
+   
+}
+.kelas{
+    margin:2rem  ;
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.ket{
+
+    display: inline-block;
+    width: 100%;
+    
+}
 .ket h2{
-    margin-bottom: -1%;
+    
     font-size: 2rem;
 
 }
@@ -147,26 +174,47 @@ margin:2rem 7rem 2rem 7rem ;
 }
 
 .ktcontainer{
+    
+    width: 100%;
     display: flex;
     gap: 5%;
-    margin-top: 3%;
-    margin-left: 0.5%;
+    margin-top: 2px;
+   
+  
 }
 
+/* kondisi Base State (Before Hover) */
 .ktcontainer a{
     font-size: 1.2rem;
-
-
+    transition: color 0.5s, font-weight 0.5s;   /* ini buat manggil hovernya pakai transisi*/
 }
 
-.klcontainer{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 2rem;
-    row-gap: 3%;
-   
-}
+/* ini kondisi hover */
+.ktcontainer a:hover {
+    color: orange; /* Orange text when hovered */
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /* ini pseudo elementya sudah di buat sebelum dihover atau Pseudo-Element (::after) in Base State*/
+  .ktcontainer a::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 5px;
+    background-color: orange; /* merah underline */
+    margin: 5px 0;
+    border-radius: 6px;
+    transition: width 0.5s;
+  }
+
+  /* ini jalan saat dihover */
+  .ktcontainer a:hover::after{
+    width: 80%;
+
+  }
+
+
 
 /* card styling */
 .card{
@@ -279,6 +327,7 @@ margin:2rem 7rem 2rem 7rem ;
 /* card styling ends */
 
 
+/* subs banner styling starts */
 .cta{
     display: flex;
     justify-content: center;
@@ -288,7 +337,7 @@ margin:2rem 7rem 2rem 7rem ;
 }
 .ctaimg{
     display: flex;
-    background-image: url('/image/studying.jpg');
+    background-image: url('./image/studying.jpg');
     width: 90%;
     background-size: cover;
     background-position: center;
@@ -378,8 +427,110 @@ background-color: green;
 
 }
 
+/* subs banner styling ends */
+
+/* footer styling starts */
+
+.ft{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5% 0;
+    margin-top: 5%;
+}
+
+.aboutcontainer{
+  
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 80px;
+    
+
+}
+
+.about{
+   
+    justify-content: flex-start;
+    align-items: center;
+    width: 370px;
+
+}
+
+.about img{
+width: 17rem;
+
+}
+
+.others{
+    display: flex;
+    
+    justify-content: flex-end;
+    width: 50%;
+   
+   
+    
+
+}
+
+.others ul{
+    margin: 0;
+    
+
+}
+
+.other1{
+
+    list-style-type: none;
+    padding-left: 6%;
+    
+    
+}
+.other1 li{
+    padding-bottom: 10px; 
 
 
+}
+.other1 li strong{
+    padding-bottom: 10px; 
 
+
+}
+
+.line{
+    border-bottom:1px solid gainsboro;
+    width: 100%;
+    margin: 20px 80px;
+    
+
+}
+
+.media{
+
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0 7dvb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sosmed{
+
+    display: flex;
+    width:20rem;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.sosmed img{
+    max-height: 80%;
+
+    /* prevent from logo streching */
+    object-fit: contain; 
+}
+
+
+/* footer banner styling ends */
 
 
