@@ -57,7 +57,7 @@ body{
 /* hero styles  starts*/
 
 .herosin{
-    background-color: aqua;
+   
     display: flex;
     justify-content: center;
     margin-top: 100px;
@@ -154,7 +154,7 @@ flex-wrap: wrap;
    
 }
 .kelas{
-    background-color: aqua;
+    
     margin:2rem auto ;
     display: flex;
     width: 90%;
@@ -240,7 +240,7 @@ flex-wrap: wrap;
 
 .card h4{
     margin:2% 0 2% 0;
-    background-color: grey;
+ 
     font-size: 80%;
 
 }
@@ -339,7 +339,7 @@ flex-wrap: wrap;
 
 /* subs banner styling starts */
 .cta{
-    background-color: aqua;
+    
     display: flex;
     width: 100%;
     justify-content: center;
@@ -360,7 +360,7 @@ flex-wrap: wrap;
    
 
 .flexor{
-    background-color: rebeccapurple;
+   
     display: flex;
     flex-wrap: wrap;
     width: 30rem;
