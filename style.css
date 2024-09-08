@@ -70,7 +70,7 @@ display: flex;
 background-image: url('./image/studying.jpg');
 background-size: cover;
 color: black;
-width: 90%;
+width: 100%;
 background-position: center;
 border-radius: 4px;
 justify-content: center;
@@ -343,6 +343,7 @@ flex-wrap: wrap;
     display: flex;
     width: 100%;
     justify-content: center;
+
  
 
 
@@ -357,6 +358,7 @@ flex-wrap: wrap;
     border-radius: 4px;
     justify-content: center;
     flex-wrap: wrap;
+    overflow: hidden;
    
 
 .flexor{
@@ -597,7 +599,7 @@ width: 17rem;
     
     }
     
-
+    
     .card{
         
         display: flex;
@@ -686,6 +688,8 @@ width: 17rem;
 
 }
 
+
+
 .subscontainer{
     gap:1rem;
     flex-wrap: wrap;
@@ -708,10 +712,14 @@ width: 17rem;
 
 .cta{
 
-    width: 100vw;
+    width: 100%;
 }
 .ctaimg{
-    width: 100vw;
+    width: 100%;
+}
+.content{
+    display: flex;
+    width: 100%;
 }
 
 .ft{
