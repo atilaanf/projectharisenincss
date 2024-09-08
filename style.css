@@ -557,7 +557,7 @@ width: 17rem;
 
 
 
-@media  (max-width:550px) {
+@media (max-width:550px) {
     
     .navbar{
         display: none;
