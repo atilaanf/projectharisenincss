@@ -15,7 +15,8 @@ body{
 /* header styles startz */
 
 .headers img{
-    width: 12rem;
+    width: 10rem;
+
      }
 
 .headers .navbar img{
@@ -27,7 +28,7 @@ body{
 
 }
 .hammenu{
-    font-size: 25px;
+    font-size: 1.5rem;
     display: none;
 
 
@@ -36,6 +37,7 @@ body{
     display: flex;
     gap: 40px;
     align-items: center;
+   
 
 }
 .headers{
@@ -62,6 +64,7 @@ body{
     justify-content: center;
     margin-top: 100px;
     width: 100%;
+    max-width: 100vw; 
    
 
 }
@@ -566,14 +569,19 @@ width: 17rem;
 
     }
     .hammenu{
-
+        color: beige;
         display: flex;
         justify-content: center;
     }
+
     
-   
+   .headers{
+    background-color: black;
+
+   }
 
     .heroimg{
+
 
         width: 100%;
 
