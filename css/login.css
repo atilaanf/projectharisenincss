@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+
+font-family:"Lato", Helvetica, sans-serif ;
+
+
+    text-decoration: none;
+}
+
+body{
+
+    background-color:beige;
+}
+.lognav{
+    background-color: white;
+    display: flex;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    padding: 1.5rem 5%;
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+}
+
+.lognav img{
+   width: 41.6%; 
+
+}
+
+main{
+
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    justify-content: center;
+    width: 88.8%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 2px black;
+    margin-top: 5rem;
+    border-radius: 4px;
+}
+
+.top{
+
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.top h1{
+    color: #333;
+
+}
+
+.top p{
+    color: #777;
+    margin-top: -1rem;
+}
+
+
+.ep {
+    color: #777;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    margin-bottom: -0.5rem;
+   
+
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+input{
+    width: 90%;
+    border-radius: 6px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    height: 20px;
+    margin-bottom: 15px;
+   
+
+}
+.forgetpw{
+    color: #777;
+    color:#333333AD;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin-top: -1rem;
+}
+.register, .login, .googlee {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 7px;
+}
+.login{
+    background-color: #3ECF4C;
+    color: white;
+  
+    width: 90%;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.register{
+    background-color: #E2FCD9CC;
+    color: #3ECF4C; 
+    width: 90%;
+    border: none;
+}
+
+.atau{
+   
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.googlee{
+    
+    display: flex;  
+
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    border: 1px solid #ddd;
+    color: black;
+   line-height: 0;
+    
+    
+}
+
+.googlee p{
+    background-color: aqua;
+    font-size: small;
+
+}
+
+.googlee svg{
+    display: inline-block;
+    height: auto;
+    width: 1rem;
+    
+   
+}

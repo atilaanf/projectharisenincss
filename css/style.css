@@ -69,7 +69,7 @@ body{
 }
 .heroimg{
 display: flex;
-background-image: url('./image/studying.jpg');
+background-image: url('../image/studying.jpg');
 background-size: cover;
 color: black;
 width: 100%;
@@ -352,7 +352,7 @@ flex-wrap: wrap;
 }
 .ctaimg{
     display: flex;
-    background-image: url('./image/studying.jpg');
+    background-image: url('../image/studying.jpg');
     width: 100%;
     background-size: cover;
     background-position: center;
