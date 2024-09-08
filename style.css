@@ -9,7 +9,6 @@ font-family:"Lato", Helvetica, sans-serif ;
 }
 
 body{
-
     background-color: beige;
 }
 
@@ -25,6 +24,12 @@ body{
     }
 .headers .navbar a{
     color: black;
+
+}
+.hammenu{
+    font-size: 25px;
+    display: none;
+
 
 }
 .navbar{
@@ -51,11 +56,13 @@ body{
 
 /* hero styles  starts*/
 
-.heros{
+.herosin{
+    background-color: aqua;
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    
+    width: 100%;
+   
 
 }
 .heroimg{
@@ -65,7 +72,6 @@ background-size: cover;
 color: black;
 width: 90%;
 background-position: center;
-
 border-radius: 4px;
 justify-content: center;
 flex-wrap: wrap;
@@ -76,7 +82,6 @@ flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 4px;
     width: 100%;
-   
     display: flex;
     justify-content: center;
 
@@ -149,11 +154,13 @@ flex-wrap: wrap;
    
 }
 .kelas{
-    margin:2rem  ;
+    background-color: aqua;
+    margin:2rem auto ;
     display: flex;
     width: 90%;
     flex-wrap: wrap;
     justify-content: center;
+ 
 
 }
 
@@ -233,13 +240,15 @@ flex-wrap: wrap;
 
 .card h4{
     margin:2% 0 2% 0;
-
+    background-color: grey;
+    font-size: 80%;
 
 }
 .card p{
     
     color: rgb(96, 95, 95);
     margin-top: -2px;
+    font-size: 80%;
     
 }
 
@@ -248,7 +257,7 @@ flex-wrap: wrap;
 
     border-radius: 10px;
     max-width: 100%;
-
+    
 }
 
 /* tutor styling starts */
@@ -264,6 +273,7 @@ flex-wrap: wrap;
     margin: 0;
     font-size: 1.2rem;
     color: #333;
+    font-size: 80%;
 
 }
 .teacher p{
@@ -329,7 +339,9 @@ flex-wrap: wrap;
 
 /* subs banner styling starts */
 .cta{
+    background-color: aqua;
     display: flex;
+    width: 100%;
     justify-content: center;
  
 
@@ -338,7 +350,7 @@ flex-wrap: wrap;
 .ctaimg{
     display: flex;
     background-image: url('./image/studying.jpg');
-    width: 90%;
+    width: 100%;
     background-size: cover;
     background-position: center;
     height: 25rem;
@@ -348,13 +360,12 @@ flex-wrap: wrap;
    
 
 .flexor{
-    
+    background-color: rebeccapurple;
     display: flex;
     flex-wrap: wrap;
-    width: 525px;
-    height: 216px;
+    width: 30rem;
+    height: auto;
     justify-content: center;
-  
 }
 }
 .content{
@@ -397,10 +408,11 @@ flex-wrap: wrap;
     background-color: white;
     border-radius: 10px;
     width: 80%;
+    overflow: hidden;
     height:2rem;
     padding: 2% 2% 2% 2% ;
     margin-top: 2px;
-    gap: 40%;
+    gap: 7rem;
     
     
 }
@@ -534,3 +546,220 @@ width: 17rem;
 /* footer banner styling ends */
 
 
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:550px) {
+    
+    .navbar{
+        display: none;
+
+    }
+    .hammenu{
+
+        display: flex;
+        justify-content: center;
+    }
+    
+   
+
+    .heroimg{
+
+        width: 100%;
+
+    }
+    .ktcontainer{
+
+        overflow: auto;
+    }
+
+    .card{
+
+        box-shadow: 2px black;
+        display: inline;
+        width: 80%;
+        border-radius: 10px;
+        margin-top: 2rem;
+        
+    }
+    .teacher p{
+        margin: 0;
+      
+       
+    
+    }
+    
+
+    .card{
+        
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .cardname{
+       
+        display: inline-block;
+        margin-left: 0.2rem;
+
+    }
+    
+    .cardname p span{
+
+        display: none;
+    }
+    
+    .cardtop{
+       
+        display: inline;
+       
+    }
+
+    .cardimg{
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    
+
+    }
+  
+   .desc{
+    display: none;
+   }
+   .teacher{
+    margin-top:0;
+
+   }
+
+   .teacher img{
+    width: 40px;
+    height: 40px;
+    
+
+   }
+
+
+   .rate{
+    margin: -5% 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+.sec{
+    
+    min-width: 60%;
+    display: flex;
+   align-items: center;
+   
+    
+
+}
+
+.rate .sec img{
+    width: 70px;
+
+}
+
+
+.sec p{
+    text-decoration: underline;
+    font-size: 10px;
+
+}
+.rate h3{
+ color: rgb(1, 145, 1);
+ font-size: 20px;
+ 
+
+}
+
+.subscontainer{
+    gap:1rem;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: rgb(0,0,0,0);
+}
+.emailinput{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 4%;
+    border-radius: 5px;
+}
+.btsubs{
+
+    width: 100%;
+
+}
+
+.cta{
+
+    width: 100vw;
+}
+.ctaimg{
+    width: 100vw;
+}
+
+.ft{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about{
+
+    width: 100%;
+}
+
+.othersdetail{
+    display: none;
+}
+
+.other1{
+    
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.arrow{
+    
+    font-size: 1rem;
+}
+
+.others{
+   
+    align-items: center;
+    gap:0.5rem;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.aboutcontainer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+}
