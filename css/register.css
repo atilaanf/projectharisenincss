@@ -8,10 +8,7 @@ font-family:"Lato", Helvetica, sans-serif ;
 
     text-decoration: none;
 }
-a{
 
-    text-decoration: none;
-}
 body{
 
     background-color:beige;
@@ -118,7 +115,7 @@ input{
 .login{
     background-color: #3ECF4C;
     color: white;
-     text-align: center;
+  
     width: 90%;
     margin-bottom: 10px;
     border: none;
@@ -129,7 +126,6 @@ input{
     color: #3ECF4C; 
     width: 90%;
     border: none;
-    text-align: center;
 }
 
 .atau{
