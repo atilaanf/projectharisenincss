@@ -31,7 +31,6 @@ body{
     font-size: 1.5rem;
     display: none;
 
-
 }
 .navbar{
     display: flex;
@@ -572,6 +571,7 @@ width: 17rem;
         color: beige;
         display: flex;
         justify-content: center;
+        padding: 1.5rem 5%;
     }
 
     
