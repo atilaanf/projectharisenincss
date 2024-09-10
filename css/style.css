@@ -568,7 +568,7 @@ width: 17rem;
 
     }
     .hammenu{
-        color: beige;
+        color: black;
         display: flex;
         justify-content: center;
         padding: 1.5rem 5%;
@@ -576,7 +576,7 @@ width: 17rem;
 
     
    .headers{
-    background-color: black;
+    background-color: white;
 
    }
 
