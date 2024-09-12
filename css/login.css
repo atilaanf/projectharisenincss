@@ -30,9 +30,9 @@ body{
 }
 
 .lognav img{
-   width: 41.6%; 
-
-}
+    width:150px;
+ 
+ }
 
 main{
 
@@ -62,10 +62,12 @@ main{
 
 .top h1{
     color: #333;
+    text-align: center;
 
 }
 
 .top p{
+    text-align: center;
     color: #777;
     margin-top: -1rem;
 }
@@ -166,4 +168,21 @@ input{
     width: 1rem;
     
    
+}
+
+@media (min-width:360px) {
+
+
+.container{
+
+    width: 590px;
+}
+
+.container .top{
+
+    
+    width: 50%;
+}
+
+
 }

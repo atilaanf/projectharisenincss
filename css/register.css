@@ -27,7 +27,7 @@ body{
 }
 
 .lognav img{
-   width: 41.6%; 
+   width:150px;
 
 }
 
@@ -265,3 +265,30 @@ input{
     
    
 }
+
+@media (min-width:360px) {
+
+
+    .container{
+    
+        width: 590px;
+    }
+    
+    .container .top{
+    
+        width: 50%;
+    }
+    
+
+    .kirikanan{
+        
+        width: 100%;
+    }
+
+    .nohpcontainer input{
+
+        width: 80%;
+    }
+
+    
+    }
