@@ -50,7 +50,7 @@ main{
 
 .top{
 
-   
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -58,6 +58,7 @@ main{
 }
 
 .top h1{
+        text-align: center;
     color: #333;
 
 }
