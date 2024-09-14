@@ -589,10 +589,23 @@ width: 17rem;
 
     .heroimg{
 
-
+        margin-top: 40px;
         width: 100%;
 
     }
+
+    .hmcontainer h1{
+
+        font-size: 2rem;
+
+    }
+
+    .hmcontainer p{
+        margin-top: -24px;
+        font-size: 14px;
+
+    }
+   
     .ktcontainer{
 
         overflow: auto;
